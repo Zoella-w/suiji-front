@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.myself.MyselfFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/pto"
+            android:layout_width="230dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/temp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="昵称："
+                android:textColor="#353535"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/yonghuming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       e+"
+                android:textColor="#353535"
+                android:textSize="36sp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0sp"
+            android:layout_marginRight="0dp"
+            android:padding="10dp"
+            android:text="昵称修改"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:backgroundTint="#FFFFFF" />
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/register2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0sp"
+            android:layout_marginRight="0dp"
+            android:padding="10dp"
+            android:text="设置"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            app:backgroundTint="#FFFFFF" />
+
+        <TextView
+
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black" />
+    </LinearLayout>
+
+</FrameLayout>
